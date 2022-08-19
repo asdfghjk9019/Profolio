@@ -5,8 +5,98 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>asdfghjk9019</title>
+    <style>
+        .container {
+            position: relative;
+            text-align: center;
+            color: white;
+            width: 400px;
+        }
+
+        .container img {
+            width: 400px;
+            height: 200px;
+            filter: blur(3px);
+            border-radius: 8px;
+            transition: filter 0.5s;
+        }
+
+        .container:hover img {
+            filter: none;
+        }
+
+        .container p {
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 30px;
+            font-family:sans-serif;
+        }
+
+        .pic {
+            border-radius: 100%;
+            background-color: #BEBEBE;
+        }
+
+        .link {
+            position: relative;
+            text-align: center;
+            color: white;
+            height: 100px;
+        }
+
+        .link p {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+        }
+    </style>
 </head>
 <body>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, minima repellat consequuntur, obcaecati reiciendis similique maiores eaque blanditiis odio iste et molestiae dolore eius voluptatum eligendi earum assumenda omnis nam!</p>
+    <h3>About Me</h3>
+    <p>
+        Im asdfghjk9019, ive been scripting for 3 years already mostly on my own projects.
+        <br>
+        I have worked for many groups before for small commisions.
+    </p>
+
+    <h3>Skills</h3>
+    <p>
+        Ofcourse I script in lua and I am pretty good with the roblox api.
+        <br>
+        I also know some other languages.
+        <br>
+        for example c, c++, c#, java, js including the ones i used to make this profolio.
+    </p>
+
+    <h3>Some of my projects</h3>
+    <div class="container">
+        <a href="https://www.roblox.com/games/8527535956/Color-Picker-Demo">
+            <img src="https://tr.rbxcdn.com/6d42af913ad257efee655b48f9d1b26f/768/432/Image/Png">
+        </a>
+        <p>Color-Picker-Demo</p>
+    </div>
+
+    <div class="container">
+        <a href="https://www.roblox.com/games/6550921863/Backgammon">
+            <img src="https://tr.rbxcdn.com/2739bb1a7de0f6cf9eeff45ad771b339/768/432/Image/Png">
+        </a>
+        <p>Backgammon</p>
+    </div>
+    
+    <h3>links</h3>
+    <a class="link" href="https://www.roblox.com/users/556361351/profile">
+        <img src="https://tr.rbxcdn.com/298e0bb5d45d4fef3bc05d23554e7ad6/150/150/AvatarHeadshot/Png" class="pic">
+        <p>Profile</p>
+    </div>
+
+    <a class="link" href="https://www.roblox.com/groups/6128936/Hills-Cafe#!/about">
+        <img src="https://tr.rbxcdn.com/d2e5d5597fd35ad0b2c7dc5a414fbdef/150/150/Image/Png" class="pic">
+        <p>Group</p>
+    </a>
 </body>
 </html>
